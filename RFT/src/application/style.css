@@ -1,0 +1,21 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#btnLogin, #btnApplySubject, #btnToHome, #btnUnsubSubject{
+	-fx-background-color: #F1C40F;
+}
+
+#btnToAppSubject, #btnToTakenSubject, #btnExit{
+	-fx-background-color: #F1C40F;
+	-fx-border-radius: 0;
+	-fx-border-color: #D4AC0D;
+}
+
+#btnLogin:hover, #btnToAppSubject:hover, #btnToTakenSubject:hover, #btnExit:hover, #btnApplySubject:hover, #btnToHome:hover, #btnUnsubSubject:hover{
+	-fx-background-color: #F39C12;
+	-fx-cursor: hand;
+}
+
+#labelPleaseChoose{
+	-fx-font-family: 'Nunito', sans-serif;
+	-fx-font-size: 25px;
+	-fx-text-alignment: center;
+}
